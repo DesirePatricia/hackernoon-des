@@ -1,0 +1,331 @@
+@media screen and (min-width: 975px) {
+.post{
+    margin: 5rem 7rem 5rem 7rem;
+    text-align: center;
+}
+.paragraph{
+    margin: 0 15rem;
+}
+.postProfile{
+    text-align: left;
+    width: 14rem;
+    float: left;
+}
+.postMarkUp{
+    h2{
+      margin: 5rem 15rem;
+    }
+}
+.postTagContainer{
+    width: 45rem;
+}
+.postTagTitle{
+  width: 45rem; 
+}
+.postShareBlurb{
+    margin: 5rem 12rem;
+}
+}
+
+@media screen and (max-width: 975px) and (min-width: 750px) {
+.post{
+    margin: 2rem 3rem 2rem 3rem;
+    text-align: center;
+}
+.paragraph{
+    margin: 0 5rem;
+}
+.postProfile{
+    display: flex;
+    text-align: left;
+}
+.postProfileNames{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+.postMarkUp{
+      h2{
+        margin: 5rem 0;
+      }
+    }
+.postTagTitle{
+  width: 45rem; 
+}
+.postShareBlurb{
+    margin: 2rem 4rem;
+}
+
+}
+@media screen and (max-width: 750px){
+    .post{
+        margin:0;
+    }
+    .postMarkUp{
+      h2{
+        margin: 2rem 0;
+        text-align: left;
+      }
+    }
+    .youtube-container{
+    display: flex;
+    width: auto;
+    text-align: center;
+}
+.postTagTitle{
+  width: 100%; 
+}
+}
+
+
+
+body{
+  background: #212428;
+  color: white;
+}
+
+.postTitle{
+  font-family: 'Rokkitt';
+  font-size: 3rem;
+
+}
+
+.postHeader{
+    display: flex;
+    flex-direction: row;
+}
+.reactions{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 2.5rem;
+    img{
+        margin: 0.3rem;
+        filter: grayscale(100%);
+    }
+    img:hover{
+        filter: none;
+    }
+}
+
+.reactions-center{
+   display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content:center;
+    margin: 1rem 0;
+    height: 2.5rem;
+    img{
+        margin: 0.3rem;
+        filter: grayscale(100%);
+    }
+    img:hover{
+        filter: none;
+    } 
+}
+
+
+
+.paragraph{
+    color: #f5f4f2;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    a{
+      text-decoration: none;
+      padding: 0;
+      border-bottom: 8px solid rgba(71, 224, 86, 0.7);
+      color: #f5f4f2;
+      line-height: 50px;
+      transition: background-position .2s ease-in-out, color .2s ease-in;
+    }
+    a:hover{
+        background-color: rgba(71, 224, 86, 1);
+        color: black;
+        border-bottom: 8px solid rgba(71, 224, 86, 0);
+    }
+    pre{
+        background-color: white;
+        color: black;
+        display: inline-block;
+        height: fit-content;
+        line-height: 22px;
+        margin-bottom: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: justify;
+    }
+
+}
+
+.postLink{
+    width: fit-content; 
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border-bottom: 8px solid rgba(71, 224, 86, 0.7);
+    color: #f5f4f2;
+    line-height: 13px;
+    transition: background-position .2s ease-in-out, color .2s ease-in;
+    font-weight: bold;
+}
+.postLink:hover{
+    background-color: rgba(71, 224, 86, 1);
+    color: black;
+    border-bottom: 8px solid rgba(71, 224, 86, 0); 
+}
+
+.gist-container{
+    background-color: white;
+}
+
+.postMarkUp{
+    color: #f5f4f2;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    blockquote{
+        text-align: center;
+        margin: 0;
+        font-size: 1.8rem;
+        font-style: italic;
+        padding: 3rem 0;
+        margin: 0;
+    }
+    .youtube-container{
+        text-align: center;
+        margin: 0;
+    }
+    
+}
+
+.postShareStory{
+    text-align: right;
+    img{
+    width:1.5rem;
+    margin: 0.5rem;
+    }
+}
+
+.postShareInside{
+    border: 16px solid transparent;
+    border-width: 14px;
+    border-image: url(https://hackernoon.com/Devimg/hn-ad-green.png) 40% stretch;
+}
+
+.postShareProfile{
+    text-align: start;
+}
+
+.postAvatar{
+    width: 4rem;
+    margin:0.8rem 0;
+    margin-right: 0.5rem;
+    border: 5px solid gray;
+    float: left;
+}
+
+.postAdLink{
+    text-align: left;
+    margin: 1rem;
+
+    a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      display: flex;
+      i{
+          margin: 1rem 0.5rem;
+      }
+    }
+    
+}
+
+
+.postRelated{
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid white; 
+  line-height: 0;
+  margin: 10px 0 20px; 
+  span{
+    color: white;
+    background: #212428;
+    padding:0 10px; 
+    font-weight: bold;
+    font-size: 1.5rem;
+   }
+}
+
+
+.postRelatedContainer{
+    overflow: hidden;
+}
+
+.postRelatedProfile{
+    display: flex;
+    text-align: left;
+}
+
+.postProfileTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.postRelatedBox{
+    overflow: hidden;
+    height: 25rem;
+    border: 1px solid rgba(211,211,211, 0.2);
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.postRelatedImageContainer{
+    overflow: hidden;
+    height: 15rem;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+
+.postRelatedImage{
+    max-width:22rem; 
+    padding:0;
+    &:hover{
+        max-width: 24rem;
+        
+    }
+}
+.postTagTitle{
+  text-align: center; 
+  border-bottom: 1px solid white; 
+  line-height: 0;
+  margin: 5rem 0 20px; 
+  span{
+    color: white;
+    background: #212428;
+    padding:0 10px; 
+    font-weight: bold;
+    font-size: 1.5rem;
+   }
+}
+
+.postTagContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.postTag{
+    display: flex;
+    padding: 0.5rem;
+    line-height: 15px;
+    margin: 0.2rem;
+    border: 5px solid gray;
+    white-space: nowrap;
+}
